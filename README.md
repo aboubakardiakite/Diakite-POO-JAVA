@@ -1,2 +1,2 @@
 # Diakite-POO
-differents projet poo faire par diakité
+  Differents projet POO  faire par diakité en Licence 2 informatique
