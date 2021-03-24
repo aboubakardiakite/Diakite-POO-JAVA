@@ -66,7 +66,7 @@ Ce placer dans la racine du projet avec l'existance du dossier classes
 			ou
 		make exeWithJar
 	
-	-sans le fichier .jar on se place dans la racine du tp est on fait
+-sans le fichier .jar on se place dans la racine du tp est on fait
 		java -cp  classes/ pfc.Main
 			OU
 		make exeMain
