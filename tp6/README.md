@@ -14,26 +14,26 @@ II- Les instructions
 			make doc
 
 
-	b-consultation de la documentation
+b-consultation de la documentation
 		Pour consulter la documentation ce placer dans le dossier docs et ouvrir le fichier index.html dans le navigateur.
 	
-	2-Compiler les sources du projet
-	Ce placer dans le dossier src
-	Compiler l'ensemble des sources du paquetage pfc ou io on fait la commande suivante dans le shell:
-		
+2-Compiler les sources du projet
+Ce placer dans le dossier src
+Compiler l'ensemble des sources du paquetage pfc ou io on fait la commande suivante dans le shell:
+
 			javac pfc/*.java io/*.java -d ../classes
 					       ou							 
 			make compiler
 			
 
-	3-Compiler et exécuter les tests
-	Ce placer dans la racine du projet avec l'existance du dossier classes
-	-Compiler
+3-Compiler et exécuter les tests
+Ce placer dans la racine du projet avec l'existance du dossier classes
+-Compiler
 		javac -cp test-1.7.jar test/GameTest test/PlayerTest.java  	                                 
 		                        ou				
 		make compileTest    
 
-	-Exécuter le test
+-Exécuter le test
 		java -jar test-1.7.jar GameTest
 				ou	
 		make compileGameTest
@@ -42,7 +42,7 @@ II- Les instructions
 			ou
 		make compilePlayerTest
 
-	4-Génération du fichier .jar
+4-Génération du fichier .jar
 	pour générer le fichier.jar on se place dans le dossier classes et tape la commande suivante: 
 		jar cvf ../executable.jar pfc io
 			ou						
@@ -53,7 +53,7 @@ II- Les instructions
 			ou	
 		make consulteJar
 
-	5-executer le programme
+5-executer le programme
 	-generer le fichier manifest d'abord
 	on se place dans le repertore classes et on fait
 		jar cvfm ../executable.jar ../manifest-ex pfc/ io/
